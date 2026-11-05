@@ -33,7 +33,6 @@ El resultado se guarda en final_report.json.
 4. Numero de ventas por cliente
 5. Promedio de gasto por venta y cliente
 6. Mejor cliente por pais
-6. Mejor cliente por pais
 7. Ventas por categoria
 8. Cliente con mas compras en Electronics
 9. Clientes de alto gasto (mas de 500)
