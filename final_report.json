@@ -1,0 +1,115 @@
+{
+    "summary": {
+        "total_clients": 3,
+        "total_sales": 7,
+        "total_revenue": 3039.44
+    },
+    "clients": [
+        {
+            "client_id": 1,
+            "name": "Alice",
+            "country": "Spain",
+            "total_spent": 1299.97,
+            "sale_count": 3,
+            "average_sale": 433.32
+        },
+        {
+            "client_id": 2,
+            "name": "Bob",
+            "country": "Germany",
+            "total_spent": 1389.49,
+            "sale_count": 2,
+            "average_sale": 694.75
+        },
+        {
+            "client_id": 3,
+            "name": "Carol",
+            "country": "France",
+            "total_spent": 349.98,
+            "sale_count": 2,
+            "average_sale": 174.99
+        }
+    ],
+    "top_client_by_country": {
+        "France": "Carol",
+        "Germany": "Bob",
+        "Spain": "Alice"
+    },
+    "sales_by_category": {
+        "Accessories": 339.97,
+        "Electronics": 2699.47
+    },
+    "top_client_electronics": "Alice",
+    "high_spending_clients": [
+        "Alice",
+        "Bob"
+    ],
+    "monthly_sales": {
+        "2023-07": 3039.44
+    },
+    "sales_detail": [
+        {
+            "sale_id": "S1001",
+            "client_name": "Alice",
+            "country": "Spain",
+            "product": "Smartphone",
+            "category": "Electronics",
+            "amount": 699.99,
+            "date": "2023-07-01"
+        },
+        {
+            "sale_id": "S1002",
+            "client_name": "Bob",
+            "country": "Germany",
+            "product": "Laptop",
+            "category": "Electronics",
+            "amount": 1299.5,
+            "date": "2023-07-02"
+        },
+        {
+            "sale_id": "S1003",
+            "client_name": "Alice",
+            "country": "Spain",
+            "product": "Headphones",
+            "category": "Accessories",
+            "amount": 199.99,
+            "date": "2023-07-03"
+        },
+        {
+            "sale_id": "S1004",
+            "client_name": "Bob",
+            "country": "Germany",
+            "product": "Keyboard",
+            "category": "Accessories",
+            "amount": 89.99,
+            "date": "2023-07-03"
+        },
+        {
+            "sale_id": "S1005",
+            "client_name": "Carol",
+            "country": "France",
+            "product": "Mouse",
+            "category": "Accessories",
+            "amount": 49.99,
+            "date": "2023-07-04"
+        },
+        {
+            "sale_id": "S1006",
+            "client_name": "Carol",
+            "country": "France",
+            "product": "Monitor",
+            "category": "Electronics",
+            "amount": 299.99,
+            "date": "2023-07-05"
+        },
+        {
+            "sale_id": "S1007",
+            "client_name": "Alice",
+            "country": "Spain",
+            "product": "Tablet",
+            "category": "Electronics",
+            "amount": 399.99,
+            "date": "2023-07-06"
+        }
+    ]
+}
